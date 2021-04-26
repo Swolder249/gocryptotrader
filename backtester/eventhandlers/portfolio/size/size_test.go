@@ -1,7 +1,5 @@
-package size
-
-import (
-	"errors"
+package sizeq
+import (			"errors"
 	"testing"
 
 	"github.com/thrasher-corp/gocryptotrader/backtester/common"
