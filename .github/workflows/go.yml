@@ -3,8 +3,11 @@ name: Go
 on:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
+  pull_request:if #available(<#{i, mac, tv, watch}#>OS <#x.y.z#>, *) {
+    <#API available statements#>
+} else {
+    <#fallback statements#>
+}    branches: [ master ]
 
 jobs:
 
